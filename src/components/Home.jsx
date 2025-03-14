@@ -20,7 +20,7 @@ export default function Home() {
         <section className="relative w-full h-screen bg-cover bg-center transition-all duration-500"
             style={{ backgroundImage: `url(${hero})` }}>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center">
-                <h1 className="text-4xl font-bold">Welcome to Our Website</h1>
+                <h1 className="text-4xl font-bold">Welcome to Our Store</h1>
                 <p className="text-lg mt-2">Discover amazing burger flavour from us.</p>
                 <Link to="/service" className="mt-4 px-6 py-2 bg-orange-500 hover:bg-orange-700 rounded-lg">Get Started</Link>
             </div>
